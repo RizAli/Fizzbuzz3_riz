@@ -24,9 +24,11 @@ describe 'fizzbuzz' do
 			expect(fizzbuzz?(9)).to eq "fizz!"
 		end
 
+		it 'fizz for 5' do
+			expect(fizzbuzz?(10)).to eq "buzz!"
+		end
 
-
-
+		
 
 
 	end
