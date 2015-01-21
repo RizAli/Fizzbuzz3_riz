@@ -17,7 +17,8 @@ def fizzbuzz?(number)
 	elsif is_divisible_by_5?(number)
 		return "buzz!"
 
-
+	elsif is_divisible_by_15?(number)
+		return "fizzbuzz!"
 
 	end
 
