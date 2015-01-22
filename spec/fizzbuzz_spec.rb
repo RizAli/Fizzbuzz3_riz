@@ -20,17 +20,19 @@ describe 'fizzbuzz' do
 
 	context 'fizbuzz can return' do
 
-		it "fizz for 3" do
-			expect(fizzbuzz?(9)).to eq "fizz!"
+		it "fizzbuzz for 15" do
+			expect(fizzbuzz?(15)).to eq "fizzbuzz!"
 		end
 
+		
 		it 'fizz for 5' do
 			expect(fizzbuzz?(10)).to eq "buzz!"
 		end
 
-		it "fizzbuzz for 15" do
-			expect(fizzbuzz?(15)).to eq "fizzbuzz!"
+		it "fizz for 3" do
+			expect(fizzbuzz?(9)).to eq "fizz!"
 		end
+
 
 
 	end
