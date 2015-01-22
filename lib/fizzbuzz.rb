@@ -31,17 +31,12 @@ end
 =end
 
 def fizzbuzz?(number)
-	if is_divisible_by_15?(number)
-		return "fizzbuzz!"
-
-	elsif is_divisible_by_5?(number)
-		return 'buzz!'
-	
-	elsif is_divisible_by_3?(number)
-		return 'fizz!'
-
-	else 
-		return number
+	case 
+	when is_divisible_by_15?(number) then 'fizzbuzz!'
+	when is_divisible_by_5?(number) then 'buzz!'
+	when is_divisible_by_3?(number) then 'fizz!'
+	else
+		number
 		
 	end
 
